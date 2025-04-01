@@ -10,3 +10,4 @@
 sensitive.variables.tf
 
 *json
+*.aztfexport.tf
