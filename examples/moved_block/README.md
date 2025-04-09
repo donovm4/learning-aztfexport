@@ -149,6 +149,11 @@ resource "azurerm_resource_group" "example" {
 }
 ```
 
+```terraform
+> terraform state list
+azurerm_resource_group.example
+```
+
 I want to migrate this resource instance to an AVM module for resource groups, so that I can leverage a Microsoft-supported module with backed best practices. Let's see if this is possible for my resource group.
 
 This is what the new configuration code will be:
@@ -194,6 +199,10 @@ Terraform will perform the following actions:
 Plan: 0 to add, 0 to change, 0 to destroy.
 ```
 
+```terraform
+> terraform state list
+module.rg_moved.azurerm_resource_group.this
+```
 
 Resource(s):
 

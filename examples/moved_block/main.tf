@@ -79,6 +79,13 @@ module "rg_moved" {
   location = "West Europe"
   name     = "example"
 
+  /*
+  lock = {
+    kind = "CanNotDelete"
+    name = "example-lock"
+  }
+  */
+
   tags = {
     environment = "aztfexport-demo"
     createdBy   = "Donovan"
