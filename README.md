@@ -4,6 +4,13 @@ Microsoft Documentation: [Overview of Azure Export for Terraform](https://learn.
 
 YouTube resource: [Azure Export for Terraform](https://www.youtube.com/watch?v=LWk9SU7AmDA)
 
+## Questions
+
+- What (or who) brought about this desire to move to Terraform management?
+- Is the goal to manage a full environment?
+- Are you trying to build configuration templates?
+- Any thoughts or awareness on IaC being used to group common lifecycle resources together? (sometimes even managed by the same team)
+
 ## Demos
 
 ### Refactoring with the `moved` block (potentially migrating to AVM as well)
@@ -17,5 +24,9 @@ YouTube resource: [Azure Export for Terraform](https://www.youtube.com/watch?v=L
 
 ## Feasibility Checks
 
-- Limitations with AVM?
+- Limitations with AVM
+  - potential is there
+
 - Limitations outside of AVM
+
+> In both scenarios, I believe there is no SLA associated with `aztfexport` picking up 100% of resources.
