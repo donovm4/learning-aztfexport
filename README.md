@@ -4,6 +4,8 @@ Microsoft Documentation: [Overview of Azure Export for Terraform](https://learn.
 
 YouTube resource: [Azure Export for Terraform](https://www.youtube.com/watch?v=LWk9SU7AmDA)
 
+`moved` block: [HashiCorp | Terraform | `moved` block reference](https://developer.hashicorp.com/terraform/language/moved)
+
 ## Questions
 
 - What (or who) brought about this desire to move to Terraform management?
